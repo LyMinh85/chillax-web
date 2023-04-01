@@ -1,0 +1,171 @@
+.header-area .main-header-area .main-menu ul li span.left {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 3px;
+  background: var(--red);
+  transition: all 0.25s ease;
+}
+
+.header-area .main-header-area .main-menu ul li span.right {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 0%;
+  height: 3px;
+  background: var(--red);
+  transition: all 0.25s ease;
+}
+.header-area .main-header-area .main-menu ul li:hover span {
+  width: 50%;
+}
+
+/* .header-area .main-header-area .main-menu ul li span.active {
+    width: 50%;
+} */
+
+.header-area .main-header-area.not-home {
+  padding: 10px 150px;
+  background-color: #252525;
+}
+
+@media (max-width: 767px) {
+  .header-area .main-header-area.not-home {
+    padding: 20px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-area .main-header-area.not-home {
+    padding: 20px 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header-area .main-header-area.not-home {
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .header-area .main-header-area.not-home {
+    padding: 10px 50px;
+  }
+}
+
+.main {
+  background-color: #0e0e0e;
+}
+
+.background-color {
+  /* background-color:#111111; */
+  background: radial-gradient(55% 180% at 5% 100%,var(--color-bg-gradient) 0,rgba(10,10,10,0) 75%,rgba(10,10,10,0) 100%);
+}
+
+.about-area {
+  margin-top: 4rem;
+  color: white;
+  z-index: 100;
+}
+
+.about-area .content h3 {
+  color: #fff;
+  font-weight: 700;
+  font-family: "Mona Sans,Mona Sans Header Fallback,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;",
+    sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.about-area .content h3 span {
+  font-weight: 700;
+  color: var(--red);
+}
+
+.about-area .content p {
+  font-size: 1.4rem;
+  padding: 0 5rem;
+}
+
+.about-area .content .text-cider {
+  height: 1.25em;
+  display: inline-block;
+  background-image: url("/img/svg_icon/zap.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 1em;
+  padding: 5px 0;
+  margin: 10px 0;
+}
+
+.about-area .card {
+  background-color: rgba(128,128,128,.2);
+  font-family: "Mona Sans,Mona Sans Header Fallback,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;", sans-serif;
+}
+
+.about-area .card .card-title {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.about-area .card .card-text {
+  color: #727272;
+}
+
+.card a {
+  color: white;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.footer_title {
+  color: white;
+  font-family: "IBM Plex Mono";
+}
+
+.footer h4 {
+  color: #727272;
+}
+
+.line-below {
+  display: block;
+  width: 80%;
+  background-color: #9ca3af;
+  height: 0.5px;
+}
+
+@media (max-width: 767px) {
+  .line-below {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .line-below {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .line-below {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .line-below {
+    width: 80%;
+  }
+}
+
+.logo-text {
+  letter-spacing: 0.1em;
+}
