@@ -105,8 +105,28 @@
 }
 
 .about-area .card {
+  width: 300px;
   background-color: rgba(128,128,128,.2);
   font-family: "Mona Sans,Mona Sans Header Fallback,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;", sans-serif;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .about-area .card {
+    width: 260px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-area .card {
+    width: 230px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-area .card {
+    width: 100%;
+  }
 }
 
 .about-area .card .card-title {
