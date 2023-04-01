@@ -169,3 +169,7 @@
 .logo-text {
   letter-spacing: 0.1em;
 }
+
+.logo-padding {
+  padding: 5px 0;
+}
