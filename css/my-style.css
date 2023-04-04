@@ -21,6 +21,14 @@
   width: 50%;
 }
 
+.header-area .main-header-area .main-menu ul li.active span {
+  width: 100%;
+}
+
+.header-area .main-header-area .main-menu ul li a.active:hover {
+  color: #ed1b1b;
+}
+
 /* .header-area .main-header-area .main-menu ul li span.active {
     width: 50%;
 } */
@@ -196,5 +204,11 @@
 }
 
 .logo-padding {
-  padding: 5px 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.cover {
+  object-fit: cover !important;
 }
