@@ -203,11 +203,11 @@
   letter-spacing: 0.1em;
 }
 
-.logo-padding {
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-}
+/* .logo-padding { */
+  /* border-radius: 50%; */
+  /* width: 36px;
+  height: 36px; */
+/* } */
 
 .cover {
   object-fit: cover !important;
