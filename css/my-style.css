@@ -212,3 +212,12 @@
 .cover {
   object-fit: cover !important;
 }
+
+.icon-os {
+  color: rgba(255, 255, 255, .8);
+  font-size: 170px;
+}
+
+.icon-os:hover {
+  color: white;
+}
