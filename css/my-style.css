@@ -221,3 +221,15 @@
 .icon-os:hover {
   color: white;
 }
+
+.preview-container {
+  position: relative;
+  background-color: black;
+}
+
+.preview-image {
+  position: relative;
+  margin-top: -300px;
+  width: 900px;
+  z-index: 1;
+}
