@@ -172,7 +172,7 @@
   display: block;
   width: 80%;
   background-color: #9ca3af;
-  height: 0.5px;
+  height: 1px;
 }
 
 @media (max-width: 767px) {
